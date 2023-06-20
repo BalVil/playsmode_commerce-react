@@ -33,7 +33,9 @@ function Cart() {
             <div className={styles.item} key={item.id}>
               <img src={item.image} alt={item.image} />
               <div className={styles.details}>
-                <h2 className={styles.itemTitle}>{item.title}</h2>
+                <h2 className={styles.itemTitle}>
+                  {item.title?.substring(0, 40)}
+                </h2>
                 <p className={styles.itemDesc}>
                   {item.desc?.substring(0, 100)}
                 </p>

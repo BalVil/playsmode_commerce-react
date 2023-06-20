@@ -14,110 +14,121 @@ function Privacy({ showPrivacy }) {
           />
           <ModalTextWrap title={"Privacy"}>
             <p>
-              This Privacy Statement explains how we collect, use, and share
-              your personal information when you visit or make a purchase from
-              Leprechaunoti.com (the "Site").
-            </p>
-            <p>We collect personal information.</p>
-            <p>
-              We automatically collect certain information about your device
-              when you visit the Site, such as information about your web
-              browser, IP address, time zone, and some of the cookies that are
-              installed on your device. Furthermore, as you navigate the Site,
-              we collect information about the individual web pages or products
-              that you view, what websites or search terms referred you to the
-              Site, and how you interact with the Site. This automatically
-              collected data is referred to as "Device Information."
-            </p>
-            <ul>
-              We collect Device Information through the use of the following
-              technologies:
-              <li>
-                "Cookies" are data files that are stored on your device or
-                computer and frequently contain an anonymous unique identifier.
-              </li>
-              <li>
-                "Log files" track Site activity and collect information such as
-                your IP address, browser type, Internet service provider,
-                referring/exit pages, and date/time stamps.
-              </li>
-              <li>
-                "Web beacons," "tags," and "pixels" are electronic files that
-                record information about your interactions with the Site.
-              </li>
-            </ul>
-            <p>
-              Furthermore, when you make or attempt to make a purchase through
-              the Site, we collect certain information from you, such as your
-              name, billing address, shipping address, payment information
-              (including credit card numbers), email address, and phone number.
-              This is referred to as "Order Information."
+              This Privacy Policy outlines how we will handle any personal data,
+              including but not limited to payment information and other
+              information we collect from you or other sources or that you
+              provide to us ("Information"), in connection with your access and
+              use of PlaysMode.com. We understand how important the Information
+              is to you, and we are committed to protecting and respecting your
+              privacy. Please read the following carefully to understand our
+              information practices. By using our Services, you agree that your
+              information will be handled in accordance with this Privacy
+              Policy.
             </p>
             <p>
-              In this Privacy Policy, we refer to "Personal Information" as both
-              Device Information and Order Information.
+              In this Privacy Policy, references to "we," "our," or "us" (or
+              words to that effect) refer to Go Sport, which is owned by Al Mana
+              Fashion Group W.L.L. References to "user" or "you" (or similar)
+              refer to you as an individual or legal entity, as the case may be.
             </p>
-            <p>What do we do with your personal information?</p>
+            <h3>WHAT DATA WE MAY COLLECT FROM YOU</h3>
             <p>
-              We use the Order Information we collect in general to fulfill any
-              orders placed through the Site (including processing your payment
-              information, arranging shipping, and sending you invoices and/or
-              order confirmations). Furthermore, we use this Order Information
-              to:
+              You can visit and browse our website without providing us with any
+              personally identifiable information; however, in order to fulfill
+              your order, we must collect some personally identifiable
+              information.
+            </p>
+            <p>
+              When you make a purchase at our store, we will collect the
+              following information:
             </p>
             <ul>
-              <li>Interact with you;</li>
-              <li>Examine our orders for possible risk or fraud; and</li>
-              <li>
-                Provide you with information or advertising about our products
-                or services based on the preferences you have shared with us.
-              </li>
+              <li>Your complete name</li>
+              <li>The email address</li>
+              <li>Addresses for billing and shipping</li>
+              <li>telephone number</li>
             </ul>
             <p>
-              We use the Device Information that we collect to help us screen
-              for potential risk and fraud (specifically, your IP address), as
-              well as to improve and optimize our Site more broadly (for
-              example, by generating analytics about how our customers browse
-              and interact with the Site, and to assess the success of our
-              marketing and advertising campaigns).
+              Even if you do not intend to make a purchase, you may wish to
+              voluntarily share this or similar information with us. Entering a
+              contest or sweepstakes through our website, signing up for our
+              newsletter, or voluntarily registering on our website to use
+              features such as a wishlist are examples of these situations.
+            </p>
+            <h3>WHAT HAPPENS TO YOUR PERSONAL INFORMATION?</h3>
+            <p>
+              The primary reason for collecting your personally identifiable
+              information is to fulfill your order.
             </p>
             <p>
-              We use devise information for advertising relating to our products
-              or services when it is consistent with the preferences you have
-              shared with us.
-            </p>
-            <p>Your legal rights</p>
-            <p>
-              If you are a European resident, you have the right to request
-              access to your personal information and to have it corrected,
-              updated, or deleted. If you wish to exercise this right, please
-              contact us using the information provided below.
+              We may disclose your personal information to third-party service
+              providers and other affiliated organizations solely for the
+              purpose of completing tasks and providing services to you on our
+              behalf (delivery, payment processing).
             </p>
             <p>
-              Further to that, if you are a European resident, please be aware
-              that we are processing your information in order to fulfill
-              contracts we may have with you (for example, if you place an order
-              through the Site) or to pursue our legitimate business interests
-              listed above. Please keep in mind that your information will be
-              transferred outside of Europe.
+              If you have previously agreed to us using your personal
+              information for direct marketing purposes, we may use your
+              personal information to send you promotional content that we
+              believe you will find interesting (you may change your mind at any
+              time by following the unsubscribe / opt-out links provided in all
+              communications from us). Alternatively, you can send us an email.)
             </p>
-            <p>Data storage</p>
+            <h3>CONTROLLING YOUR PERSONAL DATA</h3>
             <p>
-              When you place an order through the Site, we will keep your Order
-              Information for our records unless and until you request that we
-              delete it.
+              You can limit the collection and use of your personal information
+              in the following ways:
             </p>
-            <p>Changes</p>
             <p>
-              We may update this privacy statement from time to time to reflect
-              changes in our practices or for other operational, legal, or
-              regulatory reasons.
+              When filling out a form on the website, look for the box that
+              allows you to indicate that you do not want the information to be
+              used for direct marketing purposes. <br />
+              If you previously agreed to us using your personal information for
+              direct marketing purposes, you may change your mind at any time by
+              clicking on the unsubscribe link in the email you receive or
+              changing the communication settings in your customer account.
             </p>
-            <p>Get in touch with us</p>
             <p>
-              If you would like more information about our privacy practices,
-              have questions, or wish to file a complaint, please contact us via
-              email at support@leprechaunoti.com.
+              You can request that we erase your personal information and close
+              your account if you no longer want us to use your personal
+              information or provide you with the services.
+            </p>
+            <h3>HOW LONG WILL WE KEEP YOUR INFORMATION?</h3>
+            <p>
+              We keep your personal information for as long as it is required to
+              provide services to you and others, as well as to comply with our
+              legal obligations. You can request that we erase your personal
+              information and close your account if you no longer want us to use
+              your personal information or provide you with the services.
+            </p>
+            <h3>USE OF COOKIES</h3>
+            <p>
+              A cookie is a string of data that a website stores on a visitor's
+              computer and that the visitor's browser sends to the website every
+              time the visitor returns.
+            </p>
+            <p>
+              Overall, cookies assist us in providing a better website by
+              allowing us to track which pages you find useful and which you do
+              not. A cookie gives us no access to your computer or any
+              information about you other than the information you choose to
+              share with us. You have the option to accept or decline cookies.
+              Most web browsers accept cookies by default, but you can usually
+              change your browser settings to decline cookies if you prefer.
+              However, disabling cookies may prevent you from fully utilizing
+              the website.
+            </p>
+            <h3>YOUR SAFETY</h3>
+            <p>
+              We are committed to keeping your information safe. We have put in
+              place appropriate physical, electronic, and managerial procedures
+              to safeguard and secure the information we collect online in order
+              to prevent unauthorized access or disclosure.
+            </p>
+            <p>
+              We reserve the right to change this policy at any time by updating
+              this page. You should revisit this page on a regular basis to
+              ensure that you are satisfied with any changes.
             </p>
           </ModalTextWrap>
         </Modal>

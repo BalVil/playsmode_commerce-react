@@ -13,22 +13,56 @@ function Delivery({ showDelivery }) {
             onClick={() => showDelivery(false)}
           />
           <ModalTextWrap title={"Shipping"}>
-            <p>Monday through Friday shipping</p>
+            <h3>TO WHAT COUNTRIES DO YOU SHIP?</h3>
             <p>
-              "PRIORITY SHIPPING" is your ticket to the front of the line. We
-              will pack and ship your order within 24 hours.
+              We can currently ship to certain European Union countries. We will
+              be unable to deliver if your destination is in the EU but is not
+              listed as an option in the country selector, or if you live
+              outside the EU.
+            </p>
+            <h3>HOW MUCH DOES SHIPPING COST?</h3>
+            <p>
+              Because we are based in and serve the Baltic States region,
+              deliveries to Estonia, Latvia, and Lithuania will be the quickest
+              and least expensive, but we will always do our best to offer
+              attractive and competitive shipping prices to all other EU
+              destinations.
             </p>
             <p>
-              MOST packages will be delivered within 1-6 days (not including
-              Sundays or Holidays).
+              The table below displays the estimated shipping costs and delivery
+              time.
             </p>
             <p>
-              Orders placed after 10 a.m. on Friday will be shipped on Monday.
+              Please keep in mind that shipping costs are determined by a
+              variety of factors, including the shipping method selected and the
+              weight of the parcel.
+            </p>
+            <h3> WHEN WILL I GET MY ORDER?</h3>
+            <p>
+              When your order is complete, you will be notified with an
+              estimated delivery date. The shipping table displays the most
+              recent delivery times. You can also check the status of your order
+              by logging into your account.
             </p>
             <p>
-              Orders are typically shipped within 1 to 3 days. Then, from the
-              time you arrive at the post office, it takes approximately 2 to 8
-              days for delivery.
+              Please keep in mind that, while we make every effort to deliver
+              your order within the estimated timeframe, despatch and delivery
+              times are only estimates and are not guaranteed. Weekends and
+              public holidays are not included in the stated delivery time.
+            </p>
+            <h3>WHAT IS THE TRACKING NUMBER FOR MY PACKAGE?</h3>
+            <p>
+              If you choose a tracking method, you will receive a track & trace
+              number along with your 'Shipping Confirmation' email and SMS.
+              There is also a link there where you can view the tracking
+              information.
+            </p>
+            <p>
+              Please keep in mind that it may take up to a day for you to see
+              the tracking number online in some cases. However, errors can
+              occur as a result of the carrier. As a result, we recommend that
+              you contact us if you are unable to track your shipment using the
+              provided track & trace number even 24 hours after dispatch.
             </p>
           </ModalTextWrap>
         </Modal>

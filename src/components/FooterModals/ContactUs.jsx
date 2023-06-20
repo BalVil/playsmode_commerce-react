@@ -14,22 +14,26 @@ function Contact({ showContact }) {
           />
           <ModalTextWrap title={"Contact us"}>
             <p>
-              We're always happy to help, so please don't hesitate to contact us
-              if you have any questions or concerns.
+              We appreciate hearing from our customers! Please do not hesitate
+              to contact us if you have any questions, comments, or concerns.
+              During business hours, our friendly and knowledgeable customer
+              support team is available to assist you via email or phone.
             </p>
-            <p>Please contact us at the following address:</p>
             <p>
-              Business Park, Unit 45 Lister Cl, Plympton, Plymouth PL3 5BA, UK
-              support@starburstmania.com
+              Contact us at info@playsmode.com. <br /> Phone: +44 7981 336156
+              <br />
+              Monday through Friday, 9 a.m. to 5 p.m. GMT
             </p>
-            <p>+447724372562</p>
             <p>
-              We will do everything possible to address your concerns in a
-              timely and satisfactory manner. If you are dissatisfied with our
-              response, you have the option of filing a complaint with the
-              appropriate data protection authority.
+              If you prefer to contact us in writing, please write to us at the
+              following address in the United Kingdom:
             </p>
-            <p>We can't wait to hear from you!</p>
+            <p>Your Online Store Manchester M25 0HG, UK</p>
+            <p>
+              We will try to respond to your inquiry within 24 hours. Thank you
+              for selecting Your Online Store for all of your glove
+              requirements!
+            </p>
           </ModalTextWrap>
         </Modal>
       )}

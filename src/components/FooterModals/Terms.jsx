@@ -14,149 +14,127 @@ function TermsModal({ showTerms }) {
           />
           <ModalTextWrap title="Terms">
             <p>
-              Orders are typically shipped within 1 to 3 days. Then, from the
-              time you arrive at the post office, it takes approximately 2 to 8
-              days for delivery.
+              These terms and conditions apply to both browsing our site and
+              purchasing goods and/or services from us.
             </p>
             <p>
-              By visiting our site and/or purchasing something from us, you
-              engage in our "Service" and agree to be bound by the following
-              terms and conditions ("Terms of Service", "Terms"). These Terms of
-              Service apply to all users of the site, including but not limited
-              to browsers, vendors, customers, merchants, and/or content
-              contributors.
+              The terms "we," "us," and "our" refer to the site's owner in these
+              terms and conditions.
             </p>
             <p>
-              Please carefully read these Terms of Service before accessing or
-              using our website. You agree to be bound by these Terms of Service
-              by accessing or using any part of the site. You may not access the
-              website or use any services if you do not agree to all of the
-              terms and conditions of this agreement. Acceptance is expressly
-              limited to these Terms of Service if these Terms of Service are
-              considered an offer.
+              The policies, terms, and conditions set forth below (the
+              'Agreement') govern the use of the site. Please read them
+              thoroughly. Acceptance of the Agreement is indicated by your use
+              of the site. You should not use the site if you do not agree to
+              any of the terms and conditions of this Agreement. These terms and
+              conditions shall take precedence over any subsequent terms or
+              conditions included with any purchase order, whether or not signed
+              by us.
             </p>
             <p>
-              Any new features or tools added to the current store will be
-              subject to the Terms of Service as well. The most recent version
-              of the Terms of Service can be found on this page at any time. By
-              posting updates and/or changes to our website, we reserve the
-              right to update, change, or replace any part of these Terms of
-              Service. It is your responsibility to check this page for updates
-              on a regular basis. Your continued use or access to the website
-              after any changes are posted constitutes acceptance of those
-              changes.
-            </p>
-            <p>TERMS AND CONDITIONS OF AN ONLINE STORE</p>
-            <p>
-              By agreeing to these Terms of Service, you represent that you are
-              at least the legal age of majority in your state or province of
-              residence, or that you are the legal age of majority in your state
-              or province of residence and have given us permission to allow any
-              of your minor dependents to use this site.
+              We value the security of the information you provide on the site,
+              and we will take reasonable technical and organizational
+              precautions to prevent loss, misuse, or interference, as well as
+              unauthorised access, modification, or disclosure of your Personal
+              Information. For more information on how we handle your Personal
+              Information, please see our Privacy Policy, which is incorporated
+              into this Agreement.
             </p>
             <p>
-              You may not use our products for any illegal or unauthorized
-              purpose, and you may not violate any laws in your jurisdiction by
-              using the Service (including but not limited to copyright laws).
+              We reserve the right to change the site and the terms of the
+              Agreement at any time. Amendments will take effect immediately
+              after being posted on the site [except for current orders]. Your
+              continued use of the site following such notification will
+              constitute your agreement to be bound by the amended terms and
+              conditions.
             </p>
             <p>
-              You are not permitted to send any worms, viruses, or destructive
-              code.
+              If any part of this Agreement is deemed null and void, illegal, or
+              unenforceable, only that part of the Agreement will be excluded,
+              while all other terms will remain in effect.
             </p>
             <p>
-              Any violation of the Terms will result in the immediate
-              termination of your Services.
+              Without our prior written and signed consent, you may not assign
+              or novate any rights or obligations under this Agreement.
             </p>
-            <p>OVERALL CONDITIONS</p>
+            <h3>TERMS OF SERVICE</h3>
+            <p>These terms apply while browsing the site.</p>
+            <h3>COOKIES</h3>
             <p>
-              We reserve the right to refuse service to anyone at any time for
-              any reason.
+              To collect information while you browse the site, we will use
+              "cookies" and session data. You can tell your browser to reject
+              all cookies or to notify you when one is sent. However, if you
+              refuse to accept cookies, you may be unable to use certain parts
+              of the site.
             </p>
+            <h3>UPDATES TO THE WEBSITE</h3>
             <p>
-              You acknowledge that your content (excluding credit card
-              information) may be transferred unencrypted and may involve (a)
-              transmissions over various networks and (b) changes to conform and
-              adapt to technical requirements of connecting networks or devices.
-              Credit card information is always encrypted during network
-              transfer.
+              We strive to give our visitors the best possible experience when
+              they visit the site.
             </p>
+            <h3>RICING</h3>
             <p>
-              Without our express written permission, you agree not to
-              reproduce, duplicate, copy, sell, resell, or exploit any portion
-              of the Service, use of the Service, or access to the Service or
-              any contact on the website through which the service is provided.
+              Prices are subject to change at any time without notice. Prices,
+              products, and specifications are believed to be accurate and
+              reliable at the time of publication, but are subject to change
+              without notice. There are no price difference returns, refunds, or
+              credits available.
             </p>
+            <h3>TERMS AND CONDITIONS OF SALE</h3>
+            <h3>PERSONAL INFORMATION AND REGISTRATION</h3>
             <p>
-              The headings in this agreement are included for convenience only
-              and have no bearing on the Terms.
-            </p>
-            <p>CHANGES TO THE SERVICE AND PRICES</p>
-            <p>Our product prices are subject to change without notice.</p>
-            <p>
-              We reserve the right to modify or discontinue the Service (or any
-              part or content thereof) at any time and without notice.
-            </p>
-            <p>
-              We will not be liable to you or any third party if the Service is
-              modified, priced, suspended, or discontinued.
-            </p>
-            <p>INFORMATION ABOUT YOU</p>
-            <p>
-              Our Privacy Policy governs your submission of personal information
-              through the store.
-            </p>
-            <p>WARRANTY EXCLUSION; LIMITATION OF LIABILITY</p>
-            <p>
-              We make no guarantees, representations, or warranties that your
-              use of our service will be continuous, timely, secure, or
-              error-free.
+              When making a purchase through the site, we will require personal
+              information such as your name, address, contact numbers, and
+              e-mail address ('Personal Information'), and you will be given two
+              options when providing such information.
             </p>
             <p>
-              We do not guarantee that the results obtained from using the
-              service will be accurate or reliable.
+              To use the Guest account, your Personal Information will be
+              deleted and used only for this transactional purchase and related
+              correspondence. You will be unable to update your delivery address
+              or obtain information about the fulfillment of your order through
+              the website. When you create an account and become a member, the
+              site saves your Personal Information for future visits. Your
+              personal information will be securely stored on dedicated servers.
             </p>
             <p>
-              You agree that we may discontinue the service for indefinite
-              periods of time or cancel it at any time without prior notice to
-              you.
-            </p>
-            <p>THE ENTIRE AGREEMENT</p>
-            <p>
-              We shall not be deemed to have waived any right or provision of
-              these Terms of Service if we fail to exercise or enforce such
-              right or provision.
+              You can also change your information at any time and easily check
+              the status of your order. Your information may be used to contact
+              you about special offers and new products. You have the option to
+              opt out of receiving such marketing communications.
             </p>
             <p>
-              These Terms of Service, as well as any policies or operating rules
-              posted by us on this site or in relation to The Service, represent
-              the entire agreement and understanding between you and us and
-              govern your use of the Service, superseding any prior or
-              contemporaneous agreements, communications, and proposals, whether
-              oral or written, between you and us (including, but not limited
-              to, any prior versions of the Terms of Service).
+              We will also require you to use the consent tick box and warrant
+              that:
             </p>
+            <ul>
+              <li>
+                <p>
+                  You are at least 18 years old or have parental/guardian
+                  permission to use or purchase from this site;
+                </p>
+              </li>
+              <li>
+                <p>
+                  you have the legal right and ability to enter into a legally
+                  binding agreement with us;
+                </p>
+              </li>
+              <li>
+                <p>
+                  and you will use the site in accordance with all terms,
+                  conditions, and policies set forth on the site.
+                </p>
+              </li>
+            </ul>
             <p>
-              Any ambiguities in the interpretation of these Terms of Service
-              shall not be held against the party who drafted them.
+              When you buy something from the site, your basic personal
+              information is sent to Global Collect (the payment gateway).
             </p>
-            <p>TERMS OF SERVICE CHANGES</p>
+            <h3>GET IN TOUCH WITH US</h3>
             <p>
-              The most recent version of the Terms of Service can be found on
-              this page at any time.
-            </p>
-            <p>
-              We reserve the right to update, change, or replace any part of
-              these Terms of Service at our sole discretion by posting updates
-              and changes to our website. It is your responsibility to check our
-              website for changes on a regular basis. Your continued use or
-              access to our website or the Service after any changes to these
-              Terms of Service are posted constitutes acceptance of those
-              changes.
-            </p>
-            <p>INFORMATION ON CONTACT</p>
-            <p>
-              If you have any questions about the Terms of Service, please
-              contact us at support@leprechaunoti.com.
+              Contact us using the form below, or send an email to
+              support@playsmode.com.
             </p>
           </ModalTextWrap>
         </Modal>

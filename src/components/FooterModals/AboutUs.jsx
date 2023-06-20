@@ -14,33 +14,41 @@ function About({ showAbout }) {
           />
           <ModalTextWrap title={"About us"}>
             <p>
-              Hello and welcome to Leprechaunoti.com, where the fun never comes
-              to an end!
+              Welcome to Playsmode.com, where gloves are more than just
+              accessories - they're a necessity for realizing your athletic
+              goals. Whether you're a novice or a seasoned athlete, our
+              hand-picked gloves will help you perform at your best.
             </p>
             <p>
-              With our fantastic range of novelty gifts, we're all about making
-              you laugh and bringing a little joy into your life. We've got you
-              covered whether you're looking for something hilarious for your
-              bestie's birthday or just want to treat yourself to something
-              completely out of the ordinary.
+              We understand that each sport has its own set of requirements,
+              which is why we offer a variety of gloves for various activities.
+              Our gloves are designed to provide the ideal balance of comfort,
+              durability, and performance in a variety of environments,
+              including the boxing ring and the ski slopes. We are constantly
+              updating our collection in order to bring you the best gloves from
+              around the world.
             </p>
             <p>
-              Our gift scientists are always on the lookout for the latest and
-              greatest in novelty gifts, from wacky gadgets to belly-achingly
-              funny gag gifts. We handpick each item to ensure that it is
-              unique, fun, and guaranteed to make you smile.
+              But we're more than just a store; we're a group of dedicated
+              athletes who understand the value of high-quality gear. Every
+              glove we sell is tested and approved to ensure that it meets our
+              high standards for functionality and style. Our dedication to
+              quality extends beyond the gloves themselves; we are also
+              committed to providing exceptional customer service that goes
+              above and beyond.
             </p>
             <p>
-              Gift shopping can be a chore, but not with us! Our website is
-              extremely user-friendly, and we offer numerous payment and
-              shipping options to meet your specific requirements. Besides that,
-              if you require assistance, our customer service team is always
-              available.
+              We understand that shopping online can be intimidating, but we're
+              here to make the process as simple and stress-free as possible.
+              Our website was created with you in mind, with simple navigation
+              and detailed product descriptions. And if you have any questions
+              or concerns, our helpful customer service team is only a click
+              away.
             </p>
             <p>
-              So, what are you holding out for? Let's get this party going!
-              Visit Leprechaunoti.com to see our fantastic selection of novelty
-              gifts. We guarantee you will not be disappointed!
+              So, whether you want to replace your old gloves or try something
+              new, we've got you covered. Shop with us today and see for
+              yourself how high-quality gloves can improve your performance.
             </p>
           </ModalTextWrap>
         </Modal>

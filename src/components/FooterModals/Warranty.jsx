@@ -14,32 +14,33 @@ function Warranty({ showWarranty }) {
           />
           <ModalTextWrap title={"Warranty"}>
             <p>
-              We're pretty sure you'll fall head over heels for our amazing
-              novelty items at Leprechaunoti.com! But if you need some
-              reassurance, we've got you covered with our super fun warranty.
+              Our store believes in the quality of our sports gloves and stands
+              behind them. To give our customers peace of mind, we provide a
+              comprehensive warranty.
             </p>
             <p>
-              We stand by the quality of our products and provide a no-hassle
-              30-day warranty from the date of purchase. If you receive an
-              incorrect or damaged item, please notify our customer service
-              team, and we will resolve the issue as quickly as a leprechaun can
-              find their pot of gold!
+              Our gloves come with a limited warranty against defects in
+              materials and workmanship for [insert warranty duration here]. If
+              you have any problems with your gloves during this time, please
+              contact us right away and we will do everything we can to make
+              things right.
             </p>
             <p>
-              We no longer cover damage caused by roughhousing or shenanigans,
-              so please treat your novelty items with care. We do, however,
-              offer a 14-day return policy for unused and unopened items if you
-              simply change your mind about a product.
+              Please keep in mind that our warranty does not cover normal wear
+              and tear, misuse, or accidents. We recommend that you follow our
+              care instructions to help extend the life of your gloves and keep
+              them in good condition.
             </p>
             <p>
-              Our customer service representatives are always available to
-              answer any questions you may have about our warranty or return
-              policy. And, like our novelty items, we promise to make it fun and
-              playful!
+              Please contact our customer support team by phone or email during
+              business hours to file a warranty claim. We will collaborate with
+              you to determine the best course of action, whether that is to
+              repair or replace your gloves.
             </p>
             <p>
-              So, what are you holding out for? Shop now at Leprechaunoti.com
-              and enjoy the festivities!
+              Thank you for visiting our store in search of sports gloves. We
+              appreciate your business and are dedicated to providing you with
+              the best products and service possible.
             </p>
           </ModalTextWrap>
         </Modal>
