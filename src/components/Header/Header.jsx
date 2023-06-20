@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { useTheme } from "@mui/material";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import styles from "./Header.module.scss";
 import { ReactComponent as Logo } from "../../images/logo.svg";
@@ -12,6 +13,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(false);
   const products = useSelector((state) => state.cart.products);
+  const theme = useTheme();
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -76,7 +78,13 @@ function Header() {
         <li className={styles.icons}>
           <ExpandableSearchIcon />
           <div className={styles.icon} onClick={() => setIsOpen(!isOpen)}>
-            <ShoppingCartOutlinedIcon />
+            <ShoppingCartOutlinedIcon
+              sx={{
+                borderRadius: "4px",
+                transition: "opacity 0.9s",
+                color: products.length > 0 ? "#733a2d" : "rgba(0, 0, 0, 0.54)",
+              }}
+            />
             <span className={styles.amount}>{products.length}</span>
           </div>
         </li>

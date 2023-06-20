@@ -3,5 +3,10 @@
 }
 
 .text {
+  margin-top: 12px;
   text-align: center;
+  line-height: 1.3em;
+  color: var(--color-accent-variant);
+  font-weight: 600;
+  font-size: 20px;
 }

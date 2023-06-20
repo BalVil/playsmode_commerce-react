@@ -8,7 +8,7 @@ function FotoSection() {
     <Section>
       <Container>
         <div className={styles.wrap}>
-          <img src={HomeImg} alt="" />
+          <img src={HomeImg} alt={HomeImg} />
           <p className={styles.text}>
             Are you tired of wearing the same old gloves to your sporting
             events? There is no need to look any further! Our online store has a
