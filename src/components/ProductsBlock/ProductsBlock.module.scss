@@ -1,0 +1,27 @@
+.products {
+  padding: 24px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 100px 200px;
+  }
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.title {
+  flex: 2;
+  text-transform: capitalize;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}

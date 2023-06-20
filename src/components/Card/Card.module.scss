@@ -1,0 +1,78 @@
+@import "../../styles/vars.scss";
+
+.card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    // min-width: 466px;
+  }
+}
+
+.cardImage {
+  position: relative;
+  height: 480px;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  &:hover {
+    .secondImage {
+      z-index: 2;
+    }
+  }
+}
+
+.mainImage,
+.secondImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainImage {
+  z-index: 1;
+}
+
+.option {
+  z-index: 3;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 4px 6px;
+
+  border-radius: 2px;
+  background-color: #23854e;
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.priceList {
+  display: flex;
+  gap: 18px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-accent);
+}
+
+.oldPrice {
+  composes: price;
+
+  color: var(--color-gray);
+  text-decoration: line-through;
+}
