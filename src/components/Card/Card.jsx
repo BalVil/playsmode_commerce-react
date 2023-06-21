@@ -22,15 +22,14 @@ function Card({ item }) {
         </li>
       </ul>
       <div className={styles.desc}>
-        <h2 className={styles.title}>
-          {item?.title}
-          {/* {item?.title?.substring(0, 30)} */}
-        </h2>
+        <h2 className={styles.title}>{item?.title}</h2>
         <ul className={styles.priceList}>
           {item?.oldPrice && (
             <li className={styles.oldPrice}>{item?.oldPrice}€</li>
           )}
-          <li className={styles.price}>Price: {item?.price}€</li>
+          <li className={styles.price}>
+            <span>Price:</span> {item?.price}€
+          </li>
         </ul>
       </div>
     </Link>

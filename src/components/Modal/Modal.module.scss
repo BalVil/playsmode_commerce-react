@@ -98,13 +98,15 @@
 .payment {
   composes: modal;
 
+  background: var(--color-light);
+
   @media screen and (min-width: 1200px) {
     width: 900px;
 
     &:before {
       content: " ";
       animation-fill-mode: both;
-      background: #ffffff;
+      background: var(--color-dark);
       height: 100%;
       position: fixed;
       right: 0;

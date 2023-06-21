@@ -40,7 +40,7 @@ function Cart({ close }) {
                   {item.desc?.substring(0, 100)}
                 </p>
                 <div className={styles.itemPrice}>
-                  {item.quantity} x {item.price}
+                  {item.quantity} x {item.price}€
                 </div>
               </div>
               <DeleteOutlinedIcon

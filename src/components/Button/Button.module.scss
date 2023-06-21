@@ -1,16 +1,22 @@
 @import "styles/vars";
 
 .btn {
-  background: transparent;
-  display: block;
-  margin: 0 auto;
   position: relative;
-  padding: 1rem 1.5rem 1.2rem 1.5rem;
-  transition: 0.2s all;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 1.5rem 0 1.5rem;
   cursor: pointer;
-  box-shadow: -12px -9px 0px rgba(255, 255, 255, 1),
+  background: transparent;
+  box-shadow: -12px -9px 0px var(--color-dark),
     0px 0px 0px var(--color-secondary);
-  color: var(--color-dark);
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  @include Animation(box-shadow);
 
   &:after {
     content: "";
@@ -18,7 +24,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 50px;
+    height: 59px;
     width: 100%;
     background: var(--color-secondary);
 
@@ -26,7 +32,7 @@
   }
 
   &:hover {
-    box-shadow: 12px 9px 0px rgba(255, 255, 255, 1),
+    box-shadow: 12px 9px 0px var(--color-dark),
       18px 15px 2px var(--color-secondary);
 
     &:after {
@@ -36,44 +42,23 @@
   }
 }
 
-// .btn {
-//   position: relative;
-//   padding: 12px 8px;
-//   display: block;
-//   margin: 0 auto;
+.btnCookies {
+  composes: btn;
 
-//   border: 1px solid var(--color-dark);
-//   font-size: 18px;
-//   font-weight: 300;
-//   letter-spacing: 1px;
-//   outline: 0;
-//   cursor: pointer;
-//   user-select: none;
-//   background-color: rgba(0, 0, 0, 0);
+  color: var(--color-dark);
+  box-shadow: -12px -9px 0px var(--color-light),
+    0px 0px 0px var(--color-secondary);
 
-//   &::after {
-//     content: "";
-//     z-index: -1;
-//     position: absolute;
-//     height: 100%;
-//     top: 7px;
-//     left: 7px;
-//     background-color: var(--color-secondary);
-//     width: 100%;
+  &:hover {
+    color: var(--color-primary);
+    box-shadow: 12px 9px 0px var(--color-light),
+      18px 15px 2px var(--color-secondary);
+  }
 
-//     @include Animation(top, left);
-//   }
-
-//   &:hover::after,
-//   &:focus::after {
-//     top: 0px;
-//     left: 0px;
-//   }
-
-//   @media screen and (min-width: 1200px) {
-//     font-size: 20px;
-//   }
-// }
+  &:after {
+    height: 50px;
+  }
+}
 
 .btnHero {
   composes: btn;
@@ -95,10 +80,28 @@
   composes: btn;
 
   width: 100%;
+  height: 50px;
   margin: 0 auto;
   margin-top: 20px;
   border-radius: 8px;
   border: 2px solid var(--color-secondary);
+  box-shadow: -12px -9px 0px var(--color-light),
+    0px 0px 0px var(--color-secondary);
+  color: var(--color-dark);
+
+  &:hover {
+    box-shadow: 12px 9px 0px var(--color-light),
+      18px 15px 2px var(--color-secondary);
+  }
+
+  &:after {
+    height: 50px;
+  }
+
+  &:active {
+    box-shadow: -12px -9px 0px var(--color-light),
+      0px 0px 0px var(--color-secondary);
+  }
 
   @media screen and (min-width: 1200px) {
     margin-top: 40px;
@@ -107,28 +110,41 @@
 
 .btnCart {
   composes: btn;
+
+  height: 50px;
   margin-bottom: 20px;
+  box-shadow: -12px -9px 0px var(--color-gray),
+    0px 0px 0px var(--color-secondary);
+
+  &:hover {
+    box-shadow: 12px 9px 0px var(--color-gray),
+      18px 15px 2px var(--color-secondary);
+  }
+
+  &:after {
+    height: 50px;
+  }
 }
 
 .btnPayment {
   composes: btn;
 
   width: 100%;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5em;
-  color: var(--color-light);
+  // padding: 0.375rem 0.75rem;
+  // font-size: 1rem;
+  // line-height: 1.5em;
+  // color: var(--color-light);
 
-  border-radius: 0.375rem;
-  background-color: rgba(63, 30, 64, 0.9);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  // border-radius: 0.375rem;
+  // background-color: rgba(63, 30, 64, 0.9);
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+  //   rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
-  @include Animation(background-color, box-shadow, border-color, color);
+  // @include Animation(background-color, color);
 
-  &:hover,
-  &:focus {
-    color: var(--color-white);
-    background-color: var(--color-dark);
-  }
+  // &:hover,
+  // &:focus {
+  //   color: var(--color-white);
+  //   background-color: var(--color-dark);
+  // }
 }

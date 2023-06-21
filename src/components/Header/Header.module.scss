@@ -48,8 +48,14 @@
   font-weight: 500;
   text-decoration: none;
   font-size: 24px;
+  color: #0f0f0f;
 
   @include Animation(color, text-decoration);
+
+  &:hover,
+  &:focus {
+    text-shadow: -1px -1px 3px #5b5b5b, 2px 2px 4px #4d4d4d;
+  }
 
   &:active {
     background-color: #574c4c;
@@ -108,10 +114,10 @@
   .navElements {
     position: absolute;
     right: 0;
-    top: 80px;
+    top: 70px;
     background-color: rgb(255, 255, 255, 0.95);
     width: 0px;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     overflow: hidden;
 
     @include Animation(all);

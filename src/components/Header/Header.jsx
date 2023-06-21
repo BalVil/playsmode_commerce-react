@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 import styles from "./Header.module.scss";
 import { ReactComponent as Logo } from "../../images/logo.svg";
-import Hamburger from "../../images/hamburger.svg";
 import Cart from "components/Cart";
 import ExpandableSearchIcon from "components/ExpandableSearchIcon/ExpandableSearchIcon";
 
@@ -33,7 +34,25 @@ function Header() {
           </NavLink>
         </div>
         <div className={styles.menuIcon} onClick={handleShowNavbar}>
-          <img src={Hamburger} alt="hamburger menu" />
+          {showNavbar ? (
+            <CloseIcon
+              sx={{
+                width: "50px",
+                height: "50px",
+                color: "black",
+                transition: "color 0.9s",
+              }}
+            />
+          ) : (
+            <MenuIcon
+              sx={{
+                width: "50px",
+                height: "50px",
+                color: "black",
+                transition: "color 0.9s",
+              }}
+            />
+          )}
         </div>
         <div
           className={`${styles.navElements}  ${

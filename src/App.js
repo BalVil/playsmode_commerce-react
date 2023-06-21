@@ -19,7 +19,7 @@ const Layout = () => {
       <Header />
       <Outlet />
       <Footer />
-      <ToastContainer autoClose={2000} transition={Slide} />
+      <ToastContainer autoClose={2000} transition={Slide} theme="dark" />
     </>
   );
 };

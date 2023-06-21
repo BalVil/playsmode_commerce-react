@@ -18,7 +18,7 @@
   max-width: 600px;
   padding: 40px 20px;
 
-  background-color: var(--color-white);
+  background-color: var(--color-gray);
   box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.5);
 }
 
@@ -30,7 +30,7 @@
 
 .title {
   margin-bottom: 30px;
-  color: var(--color-gray);
+  color: var(--color-light);
   font-weight: 400;
   font-size: 24px;
 }
@@ -49,16 +49,17 @@
 .itemTitle {
   font-size: 18px;
   font-weight: 500;
+  color: var(--color-white);
 }
 
 .itemDesc {
   margin-bottom: 10px;
-  color: var(--color-gray);
   font-size: 14px;
 }
 
 .itemPrice {
   color: var(--color-accent);
+  font-weight: 500;
 }
 
 .delete {
@@ -76,10 +77,12 @@
 }
 
 .reset {
-  padding: 2px 4px;
+  padding: 4px 8px;
+  border: 1px solid rgba(255, 70, 70, 0.5);
   border-radius: 4px;
+  text-align: center;
   color: var(--color-accent-variant);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
 
@@ -87,12 +90,13 @@
 
   &:hover,
   &:focus {
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-      rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    box-shadow: rgba(241, 108, 108, 0.1) 0px 1px 0px,
+      rgba(240, 75, 69, 0.2) 0px 0px 8px;
     color: var(--color-accent);
+    border: 1px solid rgba(255, 70, 70, 0.9);
   }
 
   @media screen and (min-width: 1200px) {
-    font-size: 14px;
+    font-size: 18px;
   }
 }

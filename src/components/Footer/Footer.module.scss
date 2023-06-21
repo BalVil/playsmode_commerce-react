@@ -1,7 +1,7 @@
 @import "styles/vars";
 
 .footer {
-  padding: 12px;
+  padding: 12px 4px;
   background-color: rgba(182, 214, 242, 0.5);
 
   @media screen and (min-width: 1200px) {
@@ -69,10 +69,14 @@
 }
 
 .title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--color-white);
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 }
 
 .item span {
@@ -138,10 +142,11 @@
   color: var(--color-secondary);
   cursor: pointer;
 
-  @include Animation(color);
+  @include Animation(color, transform);
 
   &:hover,
   &:focus {
     color: var(--color-white);
+    transform: rotate(10deg);
   }
 }
