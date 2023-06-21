@@ -15,7 +15,7 @@ const CookiesModal = ({ showCookies }) => {
           We kindly seek your consent to use cookies as per our policies,
           allowing you to proceed with accessing and exploring our website.
         </p>
-        <Button title={"GOT IT"} onClick={() => checkCookie()} />
+        <Button title={"Accept"} onClick={() => checkCookie()} />
       </div>
     </>
   );

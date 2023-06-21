@@ -1,19 +1,17 @@
 .product {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding: 12px 8px;
-
   @media screen and (min-width: 1200px) {
+    display: flex;
     flex-direction: row;
-    gap: 50px;
-    padding: 20px 50px;
+    gap: 40px;
   }
 }
+
 .left {
-  flex: 1;
-  display: flex;
-  gap: 20px;
+  @media screen and (min-width: 1200px) {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+  }
 }
 
 .images {
@@ -52,6 +50,10 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 .price {
@@ -134,4 +136,9 @@
   bottom: -50%;
   transform: translateY(-50%);
   border: 1px solid rgb(238, 237, 237);
+
+  @media screen and (max-width: 1199px) {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

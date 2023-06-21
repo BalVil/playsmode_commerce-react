@@ -32,9 +32,7 @@ function ContactForm({ title }) {
 
   return (
     <>
-      <h3 className={styles.formTitle}>
-        <span>{title}</span>
-      </h3>
+      <h3 className={styles.formTitle}>{title}</h3>
       <div className={styles.formWrapper} data-form>
         <span className={styles.formImg} />
         <Formik

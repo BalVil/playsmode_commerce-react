@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import PinterestIcon from "@mui/icons-material/Pinterest";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import BeInTouch from "components/BeInTouch/BeInTouch";
 import GDPR from "components/FooterModals/GDPR";
 import Terms from "components/FooterModals/Terms";
@@ -81,6 +81,12 @@ function Footer() {
           </li>
           <li className={styles.right}>
             <div className={styles.iconList}>
+              <LinkedInIcon
+                className={styles.icon}
+                onClick={() =>
+                  window.open("https://www.linkedin.com", "_blank")
+                }
+              />
               <FacebookIcon
                 className={styles.icon}
                 onClick={() =>
@@ -96,12 +102,6 @@ function Footer() {
               <TwitterIcon
                 className={styles.icon}
                 onClick={() => window.open("https://www.twitter.com", "_blank")}
-              />
-              <PinterestIcon
-                className={styles.icon}
-                onClick={() =>
-                  window.open("https://www.pinterest.com", "_blank")
-                }
               />
             </div>
           </li>

@@ -57,10 +57,10 @@
   color: var(--color-light);
   background-color: transparent;
   cursor: pointer;
-  @include Animation(text-decoration);
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  @include Animation(text-decoration);
 
   &:hover,
   &:focus {

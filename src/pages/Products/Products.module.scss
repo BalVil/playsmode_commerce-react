@@ -2,7 +2,7 @@
   padding: 24px 0px;
 
   @media screen and (min-width: 1200px) {
-    padding: 30px 50px;
+    padding: 120px 40px;
     display: flex;
   }
 }
@@ -11,7 +11,7 @@
   flex: 1;
   position: sticky;
   height: 100%;
-  top: 90px;
+  top: 80px;
 
   @media screen and (max-width: 719px) {
     position: absolute;

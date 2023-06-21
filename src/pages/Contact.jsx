@@ -11,7 +11,7 @@ function Contact() {
   return (
     <>
       <main>
-        <Section>
+        <Section variant="pages">
           <Container>
             <ContactForm title={"Please enter your details below"} />
           </Container>

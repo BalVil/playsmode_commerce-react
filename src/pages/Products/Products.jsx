@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import List from "../../components/List/List";
+import List from "../../components/List";
 import styles from "./Products.module.scss";
 
 function Products() {

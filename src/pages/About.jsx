@@ -11,10 +11,10 @@ function Contact() {
   return (
     <>
       <main>
-        <Section>
+        <Section variant="pages">
           <Container>
-            <div className={styles.wrap}>
-              <h1 className={styles.title}>About us</h1>
+            <h1 className={styles.title}>About us</h1>
+            <div className={styles.textWrap}>
               <p>
                 Hello and welcome to Leprechaunoti.com, where the fun never
                 comes to an end!
