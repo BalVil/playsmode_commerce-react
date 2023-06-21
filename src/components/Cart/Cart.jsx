@@ -7,7 +7,7 @@ import Payment from "components/Payment";
 import Button from "components/Button/Button";
 import styles from "./Cart.module.scss";
 
-function Cart() {
+function Cart({ close }) {
   const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
 
@@ -25,8 +25,8 @@ function Cart() {
   }, [isOpen]);
 
   return (
-    <>
-      <div className={styles.cart}>
+    <div className={styles.backDrop} onClick={() => close(false)}>
+      <div className={styles.cart} onClick={(e) => e.stopPropagation()}>
         <div className={styles.wrap}>
           <h1 className={styles.title}>Products in your cart</h1>
           {products?.map((item) => (
@@ -67,7 +67,7 @@ function Cart() {
       {isOpen && products.length > 0 && (
         <Payment showPayment={setIsOpen} total={total} products={products} />
       )}
-    </>
+    </div>
   );
 }
 

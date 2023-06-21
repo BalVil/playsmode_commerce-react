@@ -3,21 +3,18 @@
 .backDrop {
   z-index: 10;
   position: fixed;
-  top: 0;
+  top: 70px;
   left: 0;
   width: 100vw;
   height: 100vh;
 
-  background-color: rgba(0, 0, 0, 0.62);
-
-  @include Animation(opacity, visibility);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cart {
   z-index: 99;
   position: absolute;
   right: 0;
-  top: 70px;
   max-width: 600px;
   padding: 40px 20px;
 

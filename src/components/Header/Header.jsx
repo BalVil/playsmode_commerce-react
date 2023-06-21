@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { useTheme } from "@mui/material";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import styles from "./Header.module.scss";
 import { ReactComponent as Logo } from "../../images/logo.svg";
@@ -10,10 +9,9 @@ import Cart from "components/Cart";
 import ExpandableSearchIcon from "components/ExpandableSearchIcon/ExpandableSearchIcon";
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(false);
   const products = useSelector((state) => state.cart.products);
-  const theme = useTheme();
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -21,10 +19,10 @@ function Header() {
 
   useEffect(() => {
     document.body.style.overflow = "unset";
-    if (isOpen) {
+    if (isCartOpen) {
       document.body.style.overflow = "hidden";
     }
-  }, [isOpen]);
+  }, [isCartOpen]);
 
   return (
     <header className={styles.header}>
@@ -77,7 +75,10 @@ function Header() {
         </div>
         <li className={styles.icons}>
           <ExpandableSearchIcon />
-          <div className={styles.icon} onClick={() => setIsOpen(!isOpen)}>
+          <div
+            className={styles.icon}
+            onClick={() => setIsCartOpen(!isCartOpen)}
+          >
             <ShoppingCartOutlinedIcon
               sx={{
                 borderRadius: "4px",
@@ -89,7 +90,7 @@ function Header() {
           </div>
         </li>
       </div>
-      {isOpen && <Cart />}
+      {isCartOpen && <Cart close={setIsCartOpen} />}
     </header>
   );
 }

@@ -58,7 +58,6 @@ const ExpandableSearchIcon = () => {
             value={searchValue}
             onChange={handleChange}
             sx={{
-              backgroundColor: "white",
               borderRadius: "4px",
               padding: theme.breakpoints.up("sm") ? "14px 4px" : "8px",
               opacity: expanded ? 1 : 0,

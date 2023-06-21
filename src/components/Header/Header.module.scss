@@ -21,6 +21,19 @@
   height: 100%;
 }
 
+.logo {
+  &:active {
+    transform: rotate(0deg);
+    animation-name: scale-logo;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+  }
+
+  @media (max-width: 719px) {
+    order: 2;
+  }
+}
+
 .svg {
   @include Animation(fill);
 
@@ -82,10 +95,6 @@
 }
 
 @media (max-width: 719px) {
-  .logo {
-    order: 2;
-  }
-
   .menuIcon {
     order: 1;
     display: block;
@@ -152,4 +161,19 @@
   font-size: 12px;
   background-color: var(--color-secondary);
   color: var(--color-white);
+}
+
+@keyframes scale-logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(-5deg);
+  }
+  66% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
