@@ -24,7 +24,7 @@ function Return({ showReturn }) {
               product's price. It is entirely up to you what you choose.
             </p>
             <p>
-              To return an item, please send an email to support@playsmode.com
+              To return an item, please send an email to support@playsmode
               with your order number and reason for return. You will receive an
               e-mail in response with a confirmation of the return request, a
               return form, and a RET number.
@@ -48,7 +48,7 @@ function Return({ showReturn }) {
             </p>
             <h3>HOW DO I RETURN AN ITEM OR ORDER?</h3>
             <p>
-              To return an item, please send an email to support@playsmode.com
+              To return an item, please send an email to support@playsmode
               with your order number and reason for return. You will receive an
               e-mail in response with a confirmation of the return request, a
               return form, and a RET number.

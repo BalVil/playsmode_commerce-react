@@ -76,7 +76,7 @@ function Footer() {
               <img src={Logo} alt="logo" />
             </NavLink>
             <span className={styles.copyright}>
-              Playsmode.com&copy; 2022-2023 All rights reserved
+              Playsmode&copy; 2023 All rights reserved
             </span>
           </li>
           <li className={styles.right}>

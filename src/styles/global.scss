@@ -58,8 +58,9 @@ a {
 
 img {
   display: block;
-  height: auto;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 /* Removing input background colour for Chrome autocomplete */

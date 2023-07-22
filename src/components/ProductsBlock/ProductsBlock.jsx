@@ -1,10 +1,11 @@
+import Container from "components/Container";
+import Card from "components/Card";
+import products from "data/products.json";
 import styles from "./ProductsBlock.module.scss";
-import products from "../../data/products.json";
-import Card from "../Card/Card";
 
 function ProductsBlock({ type }) {
   return (
-    <div className={styles[type] || styles.products}>
+    <Container>
       <div className={styles.top}>
         <h2 className={styles.title}>{type}</h2>
       </div>
@@ -13,7 +14,7 @@ function ProductsBlock({ type }) {
           item.type === type ? <Card item={item} key={item.id} /> : null
         )}
       </div>
-    </div>
+    </Container>
   );
 }
 

@@ -5,7 +5,7 @@ import styles from "./Products.module.scss";
 
 function Products() {
   const cat = useParams().category;
-  const [maxPrice, setMaxPrice] = useState(1000);
+  const [maxPrice, setMaxPrice] = useState(500);
   const [sort, setSort] = useState(null);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ function Products() {
             <input
               type="range"
               min={0}
-              max={1000}
+              max={500}
               onChange={(e) => setMaxPrice(e.target.value)}
             />
             <span>{maxPrice}</span>

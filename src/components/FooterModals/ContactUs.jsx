@@ -20,7 +20,7 @@ function Contact({ showContact }) {
               support team is available to assist you via email or phone.
             </p>
             <p>
-              Contact us at info@playsmode.com. <br /> Phone: +44 7981 336156
+              Contact us at info@playsmode. <br /> Phone: +44 7981 336156
               <br />
               Monday through Friday, 9 a.m. to 5 p.m. GMT
             </p>

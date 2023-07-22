@@ -14,10 +14,10 @@ function About({ showAbout }) {
           />
           <ModalTextWrap title={"About us"}>
             <p>
-              Welcome to Playsmode.com, where gloves are more than just
-              accessories - they're a necessity for realizing your athletic
-              goals. Whether you're a novice or a seasoned athlete, our
-              hand-picked gloves will help you perform at your best.
+              Welcome to Playsmode, where gloves are more than just accessories
+              - they're a necessity for realizing your athletic goals. Whether
+              you're a novice or a seasoned athlete, our hand-picked gloves will
+              help you perform at your best.
             </p>
             <p>
               We understand that each sport has its own set of requirements,

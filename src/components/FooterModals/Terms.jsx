@@ -134,7 +134,7 @@ function TermsModal({ showTerms }) {
             <h3>GET IN TOUCH WITH US</h3>
             <p>
               Contact us using the form below, or send an email to
-              support@playsmode.com.
+              support@playsmode.
             </p>
           </ModalTextWrap>
         </Modal>

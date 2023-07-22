@@ -15,25 +15,26 @@ function Categories() {
         <h2 className={styles.title}>Categories</h2>
         <ul className={styles.categories}>
           {categories?.map((item) => (
-            <li className={styles.item} key={item.id}>
+            <li
+              className={`${styles.item} ${styles[`item-${item.id}`]}`}
+              key={item.id}
+            >
               <NavLink to={`/products/${item.title}`} className={styles.link}>
-                <div className={styles.thumb}>
-                  <img
-                    src={item.image}
-                    alt={item.image}
-                    className={styles.image}
-                  />
-                  <div className={styles.overlay}>
-                    <span className={styles.itemName}>
-                      {item.title.replaceAll("_", " ")}
-                    </span>
-                    {hidden ? null : (
-                      <ArrowCircleRightOutlinedIcon
-                        fontSize="large"
-                        display={hidden ? "none" : "block"}
-                      />
-                    )}
-                  </div>
+                <img
+                  src={item.image}
+                  alt={item.image}
+                  className={styles.image}
+                />
+                <div className={styles.overlay}>
+                  <span className={styles.itemName}>
+                    {item.title.replaceAll("_", " ")}
+                  </span>
+                  {hidden ? null : (
+                    <ArrowCircleRightOutlinedIcon
+                      fontSize="large"
+                      display={hidden ? "none" : "block"}
+                    />
+                  )}
                 </div>
               </NavLink>
             </li>
