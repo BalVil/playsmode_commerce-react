@@ -7,6 +7,7 @@ function Button({
   type = "button",
   onClick,
   component,
+  disabled,
 }) {
   return (
     <button
@@ -14,6 +15,7 @@ function Button({
       type={type}
       className={styles[variant]}
       onClick={onClick}
+      disabled={disabled}
     >
       {component} {title}
     </button>

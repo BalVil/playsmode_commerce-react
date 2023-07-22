@@ -2,22 +2,20 @@ import ArrowLeftOutlinedIcon from "@mui/icons-material/ArrowLeftOutlined";
 import styles from "./Payment.module.scss";
 import Modal from "components/Modal/Modal";
 import PaymentForm from "components/PaymentForm";
+import Button from "components/Button";
 
 function Payment({ showPayment, total, products }) {
   return (
     <Modal closeModal={showPayment} variant="payment">
       <div className={styles.wrap}>
         <div className={styles.left}>
-          <div className={styles.headerLink}>
-            <a
-              href="#"
-              onClick={() => showPayment(false)}
-              className={styles.link}
-            >
-              <ArrowLeftOutlinedIcon />
-              Back
-            </a>
-          </div>
+          <Button
+            title="Back"
+            variant="btnBack"
+            onClick={() => showPayment(false)}
+            className={styles.link}
+            component={<ArrowLeftOutlinedIcon />}
+          ></Button>
 
           <div className={styles.summary}>
             <p>Total for payment:</p>

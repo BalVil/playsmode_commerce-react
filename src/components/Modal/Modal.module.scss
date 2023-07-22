@@ -20,7 +20,6 @@
   align-items: center;
   top: 50%;
   left: 50%;
-
   width: 85vw;
   height: auto;
   padding: 44px 24px;
@@ -105,7 +104,7 @@
     &:before {
       content: " ";
       animation-fill-mode: both;
-      background: var(--color-dark);
+      background: var(--color-gray);
       height: 100%;
       position: fixed;
       right: 0;
