@@ -6,7 +6,7 @@ function Delivery({ showDelivery }) {
   return (
     <>
       {showDelivery && (
-        <Modal variant="modal" closeModal={showDelivery}>
+        <Modal closeModal={showDelivery}>
           <ButtonClose
             aria-label={"close"}
             type={"button"}

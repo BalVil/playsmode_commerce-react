@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { IconButton, InputBase, useTheme } from "@mui/material";
+import { IconButton, InputBase } from "@mui/material";
 import Clear from "@mui/icons-material/Clear";
 import SearchIcon from "@mui/icons-material/Search";
 import styles from "./ExpandableSearchIcon.module.scss";
@@ -10,7 +10,6 @@ const ExpandableSearchIcon = () => {
   const [expanded, setExpanded] = useState(false);
   const [searchValue, setSearchValue] = useState("");
   const [searchResults, setSearchResults] = useState([]);
-  const theme = useTheme();
 
   const handleExpand = () => {
     setExpanded(!expanded);

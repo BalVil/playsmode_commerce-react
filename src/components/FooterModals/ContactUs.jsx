@@ -6,7 +6,7 @@ function Contact({ showContact }) {
   return (
     <>
       {showContact && (
-        <Modal variant="modal" closeModal={showContact}>
+        <Modal closeModal={showContact}>
           <ButtonClose
             aria-label={"close"}
             type={"button"}

@@ -13,7 +13,7 @@ function Contact() {
       <main>
         <Section variant="pages">
           <Container>
-            <ContactForm title={"Please enter your details below"} />
+            <ContactForm title="Please enter your details below" />
           </Container>
         </Section>
       </main>

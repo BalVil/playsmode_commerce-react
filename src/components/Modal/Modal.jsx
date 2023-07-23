@@ -1,5 +1,5 @@
 import { createPortal } from "react-dom";
-
+import PropTypes from "prop-types";
 import styles from "./Modal.module.scss";
 
 function Modal({ variant = "modal", closeModal, children }) {
@@ -12,5 +12,11 @@ function Modal({ variant = "modal", closeModal, children }) {
     document.querySelector("#modal-root")
   );
 }
+
+Modal.propTypes = {
+  variant: PropTypes.string,
+  closeModal: PropTypes.func.isRequired,
+  children: PropTypes.node,
+};
 
 export default Modal;

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import styles from "./Button.module.scss";
 
 function Button({
@@ -7,7 +8,6 @@ function Button({
   type = "button",
   onClick,
   component,
-  disabled,
 }) {
   return (
     <button
@@ -15,11 +15,19 @@ function Button({
       type={type}
       className={styles[variant]}
       onClick={onClick}
-      disabled={disabled}
     >
       {component} {title}
     </button>
   );
 }
+
+Button.propTypes = {
+  variant: PropTypes.string,
+  ariaLabel: PropTypes.string,
+  type: PropTypes.string,
+  onClick: PropTypes.func,
+  title: PropTypes.string,
+  component: PropTypes.object,
+};
 
 export default Button;

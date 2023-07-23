@@ -6,7 +6,7 @@ function Privacy({ showPrivacy }) {
   return (
     <>
       {showPrivacy && (
-        <Modal variant="modal" closeModal={showPrivacy}>
+        <Modal closeModal={showPrivacy}>
           <ButtonClose
             aria-label={"close"}
             type={"button"}
@@ -18,8 +18,8 @@ function Privacy({ showPrivacy }) {
               including but not limited to payment information and other
               information we collect from you or other sources or that you
               provide to us ("Information"), in connection with your access and
-              use of PlaysMode. We understand how important the Information
-              is to you, and we are committed to protecting and respecting your
+              use of PlaysMode. We understand how important the Information is
+              to you, and we are committed to protecting and respecting your
               privacy. Please read the following carefully to understand our
               information practices. By using our Services, you agree that your
               information will be handled in accordance with this Privacy

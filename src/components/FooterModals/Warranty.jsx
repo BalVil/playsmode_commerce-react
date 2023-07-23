@@ -6,7 +6,7 @@ function Warranty({ showWarranty }) {
   return (
     <>
       {showWarranty && (
-        <Modal variant="modal" closeModal={showWarranty}>
+        <Modal closeModal={showWarranty}>
           <ButtonClose
             aria-label={"close"}
             type={"button"}

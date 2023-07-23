@@ -6,7 +6,7 @@ function GDPR({ showGDPR }) {
   return (
     <>
       {showGDPR && (
-        <Modal variant="modal" closeModal={showGDPR}>
+        <Modal closeModal={showGDPR}>
           <ButtonClose
             aria-label={"close"}
             type={"button"}

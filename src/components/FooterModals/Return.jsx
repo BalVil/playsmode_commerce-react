@@ -6,7 +6,7 @@ function Return({ showReturn }) {
   return (
     <>
       {showReturn && (
-        <Modal variant="modal" closeModal={showReturn}>
+        <Modal closeModal={showReturn}>
           <ButtonClose
             aria-label={"close"}
             type={"button"}
@@ -24,8 +24,8 @@ function Return({ showReturn }) {
               product's price. It is entirely up to you what you choose.
             </p>
             <p>
-              To return an item, please send an email to support@playsmode
-              with your order number and reason for return. You will receive an
+              To return an item, please send an email to support@playsmode with
+              your order number and reason for return. You will receive an
               e-mail in response with a confirmation of the return request, a
               return form, and a RET number.
             </p>
@@ -48,8 +48,8 @@ function Return({ showReturn }) {
             </p>
             <h3>HOW DO I RETURN AN ITEM OR ORDER?</h3>
             <p>
-              To return an item, please send an email to support@playsmode
-              with your order number and reason for return. You will receive an
+              To return an item, please send an email to support@playsmode with
+              your order number and reason for return. You will receive an
               e-mail in response with a confirmation of the return request, a
               return form, and a RET number.
             </p>

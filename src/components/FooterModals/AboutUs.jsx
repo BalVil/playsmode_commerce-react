@@ -6,7 +6,7 @@ function About({ showAbout }) {
   return (
     <>
       {showAbout && (
-        <Modal variant="modal" closeModal={showAbout}>
+        <Modal closeModal={showAbout}>
           <ButtonClose
             aria-label={"close"}
             type={"button"}
